@@ -1,0 +1,514 @@
+# Component 2
+JaeHoBahng@DESKTOP-8V7EJU3 MINGW64 ~/Desktop/2023_Fall/DSAN_5000_DataScienceAndAnalytics/labs/lab1.2/turn_in
+$ git clone https://github.com/jaehobahng/5000-lab-1.2.git
+Cloning into '5000-lab-1.2'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+JaeHoBahng@DESKTOP-8V7EJU3 MINGW64 ~/Desktop/2023_Fall/DSAN_5000_DataScienceAndAnalytics/labs/lab1.2/turn_in
+$
+
+
+
+# Component 3
+jaehobahng@DESKTOP-8V7EJU3:/mnt/c/Users/JaeHoBahng/Desktop/2023_Fall/DSAN_5000_DataScienceAndAnalytics/labs/lab1.2/turn_in/5000-lab-1.2/simple_quarto_website$ rm styles.css
+jaehobahng@DESKTOP-8V7EJU3:/mnt/c/Users/JaeHoBahng/Desktop/2023_Fall/DSAN_5000_DataScienceAndAnalytics/labs/lab1.2/turn_in/5000-lab-1.2/simple_quarto_website$ nano _quarto.yml
+jaehobahng@DESKTOP-8V7EJU3:/mnt/c/Users/JaeHoBahng/Desktop/2023_Fall/DSAN_5000_DataScienceAndAnalytics/labs/lab1.2/turn_in/5000-lab-1.2/simple_quarto_website$ mkdir images
+jaehobahng@DESKTOP-8V7EJU3:/mnt/c/Users/JaeHoBahng/Desktop/2023_Fall/DSAN_5000_DataScienceAndAnalytics/labs/lab1.2/turn_in/5000-lab-1.2/simple_quarto_website$ cd images
+jaehobahng@DESKTOP-8V7EJU3:/mnt/c/Users/JaeHoBahng/Desktop/2023_Fall/DSAN_5000_DataScienceAndAnalytics/labs/lab1.2/turn_in/5000-lab-1.2/simple_quarto_website/images$ mkdir slides
+jaehobahng@DESKTOP-8V7EJU3:/mnt/c/Users/JaeHoBahng/Desktop/2023_Fall/DSAN_5000_DataScienceAndAnalytics/labs/lab1.2/turn_in/5000-lab-1.2/simple_quarto_website$ quarto convert about.qmd
+Converted to about.ipynb
+jaehobahng@DESKTOP-8V7EJU3:/mnt/c/Users/JaeHoBahng/Desktop/2023_Fall/DSAN_5000_DataScienceAndAnalytics/labs/lab1.2/turn_in/5000-lab-1.2/simple_quarto_website$ ls
+_quarto.yml  _site  about.ipynb  about.qmd  images  index.qmd  references.bib
+jaehobahng@DESKTOP-8V7EJU3:/mnt/c/Users/JaeHoBahng/Desktop/2023_Fall/DSAN_5000_DataScienceAndAnalytics/labs/lab1.2/turn_in/5000-lab-1.2/simple_quarto_website$ more references.bib
+@article{sharma2018nickel,
+  title={Nickel nanoparticles set a new record of strength},
+  author={Sharma, A and Hickman, J and Gazit, N and Rabkin, E and Mishin, Y},
+  journal={Nature communications},
+  volume={9},
+  number={1},
+  pages={4102},
+  year={2018},
+  publisher={Nature Publishing Group UK London}
+}
+
+@article{hickman2016temperature,
+  title={Temperature fluctuations in canonical systems: Insights from molecular dynamics simulations},
+  author={Hickman, J and Mishin, Y},
+  journal={Physical Review B},
+  volume={94},
+  number={18},
+  pages={184311},
+  year={2016},
+  publisher={APS}
+}
+jaehobahng@DESKTOP-8V7EJU3:/mnt/c/Users/JaeHoBahng/Desktop/2023_Fall/DSAN_5000_DataScienceAndAnalytics/labs/lab1.2/turn_in/5000-lab-1.2/simple_quarto_website$
+
+
+
+
+# Component 8
+jaehobahng@DESKTOP-8V7EJU3:/mnt/c/Users/JaeHoBahng/Desktop/2023_Fall/DSAN_5000_DataScienceAndAnalytics/labs/lab1.2/turn_in/5000-lab-1.2/simple_quarto_website$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+jaehobahng@DESKTOP-8V7EJU3:/mnt/c/Users/JaeHoBahng/
+Desktop/2023_Fall/DSAN_5000_DataScienceAndAnalytics
+/labs/lab1.2/turn_in/5000-lab-1.2/simple_quarto_web (use "git add" to track)
+sgte$ 
+g: command not found
+jaehobahng@DESKTOP-8V7EJU3:/mnt/c/Users/JaeHoBahng/Desktop/2023_Fall/DSAN_5000_DataScienceAndAnalytics/labs/lab1.2/turn_in/5000-lab-1.2/simple_quarto_website$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ./
+
+nothing added to commit but untracked files present (use "git add" to track)
+jaehobahng@DESKTOP-8V7EJU3:/mnt/c/Users/JaeHoBahng/Desktop/2023_Fall/DSAN_5000_DataScienceAndAnalytics/labs/lab1.2/turn_in/5000-lab-1.2/simple_quarto_website$ git add ./
+jaehobahng@DESKTOP-8V7EJU3:/mnt/c/Users/JaeHoBahng/Desktop/2023_Fall/DSAN_5000_DataScienceAndAnalytics/labs/lab1.2/turn_in/5000-lab-1.2/simple_quarto_website$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   .gitignore
+        new file:   _quarto.yml
+        new file:   _site/about.html
+        new file:   _site/about_files/figure-html/cell-2-output-1.png
+        new file:   _site/images/2023-09-09-17-30-27.png
+        new file:   _site/images/2023-09-09-18-08-53.png
+        new file:   _site/index.html
+        new file:   _site/search.json
+        new file:   _site/site_libs/bootstrap/bootstrap-icons.css
+        new file:   _site/site_libs/bootstrap/bootstrap-icons.woff
+        new file:   _site/site_libs/bootstrap/bootstrap.min.css
+        new file:   _site/site_libs/bootstrap/bootstrap.min.js
+        new file:   _site/site_libs/clipboard/clipboard.min.js
+        new file:   _site/site_libs/quarto-diagram/mermaid-init.js
+        new file:   _site/site_libs/quarto-diagram/mermaid.css
+        new file:   _site/site_libs/quarto-diagram/mermaid.min.js
+        new file:   _site/site_libs/quarto-html/anchor.min.js
+        new file:   _site/site_libs/quarto-html/light-border.css
+        new file:   _site/site_libs/quarto-html/popper.min.js
+        new file:   _site/site_libs/quarto-html/quarto-html.min.css
+        new file:   _site/site_libs/quarto-html/quarto-syntax-highlighting.css
+        new file:   _site/site_libs/quarto-html/quarto.js
+        new file:   _site/site_libs/quarto-html/tabby.min.js
+        new file:   _site/site_libs/quarto-html/tippy.css
+        new file:   _site/site_libs/quarto-html/tippy.umd.min.js
+        new file:   _site/site_libs/quarto-nav/headroom.min.js
+        new file:   _site/site_libs/quarto-nav/quarto-nav.js
+        new file:   _site/site_libs/quarto-search/autocomplete.umd.js
+        new file:   _site/site_libs/quarto-search/fuse.min.js
+        new file:   _site/site_libs/quarto-search/quarto-search.js
+        new file:   _site/site_libs/revealjs/dist/reset.css
+        new file:   _site/site_libs/revealjs/dist/reveal.css
+        new file:   _site/site_libs/revealjs/dist/reveal.esm.js
+        new file:   _site/site_libs/revealjs/dist/reveal.esm.js.map
+        new file:   _site/site_libs/revealjs/dist/reveal.js
+        new file:   _site/site_libs/revealjs/dist/reveal.js.map
+        new file:   _site/site_libs/revealjs/dist/theme/fonts/league-gothic/LICENSE
+        new file:   _site/site_libs/revealjs/dist/theme/fonts/league-gothic/league-gothic.css
+        new file:   _site/site_libs/revealjs/dist/theme/fonts/league-gothic/league-gothic.eot
+        new file:   _site/site_libs/revealjs/dist/theme/fonts/league-gothic/league-gothic.ttf
+        new file:   _site/site_libs/revealjs/dist/theme/fonts/league-gothic/league-gothic.woff
+        new file:   _site/site_libs/revealjs/dist/theme/fonts/source-sans-pro/LICENSE
+        new file:   _site/site_libs/revealjs/dist/theme/fonts/source-sans-pro/source-sans-pro-italic.eot
+        new file:   _site/site_libs/revealjs/dist/theme/fonts/source-sans-pro/source-sans-pro-italic.ttf
+        new file:   _site/site_libs/revealjs/dist/theme/fonts/source-sans-pro/source-sans-pro-italic.woff
+        new file:   _site/site_libs/revealjs/dist/theme/fonts/source-sans-pro/source-sans-pro-regular.eot
+        new file:   _site/site_libs/revealjs/dist/theme/fonts/source-sans-pro/source-sans-pro-regular.ttf
+        new file:   _site/site_libs/revealjs/dist/theme/fonts/source-sans-pro/source-sans-pro-regular.woff
+        new file:   _site/site_libs/revealjs/dist/theme/fonts/source-sans-pro/source-sans-pro-semibold.eot
+        new file:   _site/site_libs/revealjs/dist/theme/fonts/source-sans-pro/source-sans-pro-semibold.ttf
+        new file:   _site/site_libs/revealjs/dist/theme/fonts/source-sans-pro/source-sans-pro-semibold.woff
+        new file:   _site/site_libs/revealjs/dist/theme/fonts/source-sans-pro/source-sans-pro-semibolditalic.eot
+        new file:   _site/site_libs/revealjs/dist/theme/fonts/source-sans-pro/source-sans-pro-semibolditalic.ttf
+        new file:   _site/site_libs/revealjs/dist/theme/fonts/source-sans-pro/source-sans-pro-semibolditalic.woff
+        new file:   _site/site_libs/revealjs/dist/theme/fonts/source-sans-pro/source-sans-pro.css
+        new file:   _site/site_libs/revealjs/dist/theme/quarto.css
+        new file:   _site/site_libs/revealjs/plugin/highlight/highlight.esm.js
+        new file:   _site/site_libs/revealjs/plugin/highlight/highlight.js
+        new file:   _site/site_libs/revealjs/plugin/highlight/monokai.css
+        new file:   _site/site_libs/revealjs/plugin/highlight/plugin.js
+        new file:   _site/site_libs/revealjs/plugin/highlight/zenburn.css
+        new file:   _site/site_libs/revealjs/plugin/markdown/markdown.esm.js
+        new file:   _site/site_libs/revealjs/plugin/markdown/markdown.js
+        new file:   _site/site_libs/revealjs/plugin/markdown/plugin.js
+        new file:   _site/site_libs/revealjs/plugin/math/katex.js
+        new file:   _site/site_libs/revealjs/plugin/math/math.esm.js
+        new file:   _site/site_libs/revealjs/plugin/math/math.js
+        new file:   _site/site_libs/revealjs/plugin/math/mathjax2.js
+        new file:   _site/site_libs/revealjs/plugin/math/mathjax3.js
+        new file:   _site/site_libs/revealjs/plugin/math/plugin.js
+        new file:   _site/site_libs/revealjs/plugin/notes/notes.esm.js
+        new file:   _site/site_libs/revealjs/plugin/notes/notes.js
+        new file:   _site/site_libs/revealjs/plugin/notes/plugin.js
+        new file:   _site/site_libs/revealjs/plugin/notes/speaker-view.html
+        new file:   _site/site_libs/revealjs/plugin/pdf-export/pdfexport.js
+        new file:   _site/site_libs/revealjs/plugin/pdf-export/plugin.yml
+        new file:   _site/site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css
+        new file:   _site/site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js
+        new file:   _site/site_libs/revealjs/plugin/quarto-line-highlight/plugin.yml
+        new file:   _site/site_libs/revealjs/plugin/quarto-support/footer.css
+        new file:   _site/site_libs/revealjs/plugin/quarto-support/plugin.yml
+        new file:   _site/site_libs/revealjs/plugin/quarto-support/support.js
+        new file:   _site/site_libs/revealjs/plugin/reveal-menu/menu.css
+        new file:   _site/site_libs/revealjs/plugin/reveal-menu/menu.js
+        new file:   _site/site_libs/revealjs/plugin/reveal-menu/plugin.yml
+        new file:   _site/site_libs/revealjs/plugin/reveal-menu/quarto-menu.css
+        new file:   _site/site_libs/revealjs/plugin/reveal-menu/quarto-menu.js
+        new file:   _site/site_libs/revealjs/plugin/search/plugin.js
+        new file:   _site/site_libs/revealjs/plugin/search/search.esm.js
+        new file:   _site/site_libs/revealjs/plugin/search/search.js
+        new file:   _site/site_libs/revealjs/plugin/zoom/plugin.js
+        new file:   _site/site_libs/revealjs/plugin/zoom/zoom.esm.js
+        new file:   _site/site_libs/revealjs/plugin/zoom/zoom.js
+        new file:   _site/slides/slides.html
+        new file:   _site/slides/slides_files/figure-revealjs/cell-2-output-1.png
+        new file:   about.ipynb
+        new file:   images/2023-09-09-17-30-27.png
+        new file:   images/2023-09-09-18-08-53.png
+        new file:   index.qmd
+        new file:   nature.csl
+        new file:   references.bib
+        new file:   slides/slides.ipynb
+        new file:   slides/test.png
+        new file:   test.png
+
+jaehobahng@DESKTOP-8V7EJU3:/mnt/c/Users/JaeHoBahng/Desktop/2023_Fall/DSAN_5000_DataScienceAndAnalytics/labs/lab1.2/turn_in/5000-lab-1.2/simple_quarto_website$ git commit
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: empty ident name (for <jaehobahng@DESKTOP-8V7EJU3.>) not allowed
+jaehobahng@DESKTOP-8V7EJU3:/mnt/c/Users/JaeHoBahng/Desktop/2023_Fall/DSAN_5000_DataScienceAndAnalytics/labs/lab1.2/turn_in/5000-lab-1.2/simple_quarto_website$ git config --global user.email "jaeho127@gmail.com"
+jaehobahng@DESKTOP-8V7EJU3:/mnt/c/Users/JaeHoBahng/Desktop/2023_Fall/DSAN_5000_DataScienceAndAnalytics/labs/lab1.2/turn_in/5000-lab-1.2/simple_quarto_website$ git commit
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: empty ident name (for <jaeho127@gmail.com>) not allowed
+jaehobahng@DESKTOP-8V7EJU3:/mnt/c/Users/JaeHoBahng/Desktop/2023_Fall/DSAN_5000_DataScienceAndAnalytics/labs/lab1.2/turn_in/5000-lab-1.2/simple_quarto_website$ git remote
+origin
+jaehobahng@DESKTOP-8V7EJU3:/mnt/c/Users/JaeHoBahng/Desktop/2023_Fall/DSAN_5000_DataScienceAndAnalytics/labs/lab1.2/turn_in
+/5000-lab-1.2/simple_quarto_website$ git remote -v
+origin  https://github.com/jaehobahng/5000-lab-1.2.git (fetch)
+origin  https://github.com/jaehobahng/5000-lab-1.2.git (push)
+jaehobahng@DESKTOP-8V7EJU3:/mnt/c/Users/JaeHoBahng/Desktop/2023_Fall/DSAN_5000_DataScienceAndAnalytics/labs/lab1.2/turn_in/5000-lab-1.2/simple_quarto_website$ git commit
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: empty ident name (for <jaeho127@gmail.com>) not allowed
+jaehobahng@DESKTOP-8V7EJU3:/mnt/c/Users/JaeHoBahng/Desktop/2023_Fall/DSAN_5000_DataScienceAndAnalytics/labs/lab1.2/turn_in/5000-lab-1.2/simple_quarto_website$ git config --global user.name "jaehobahng"
+jaehobahng@DESKTOP-8V7EJU3:/mnt/c/Users/JaeHoBahng/Desktop/2023_Fall/DSAN_5000_DataScienceAndAnalytics/labs/lab1.2/turn_in/5000-lab-1.2/simple_quarto_website$ git commit
+Aborting commit due to empty commit message.
+jaehobahng@DESKTOP-8V7EJU3:/mnt/c/Users/JaeHoBahng/Desktop/2023_Fall/DSAN_5000_DataScienceAndAnalytics/labs/lab1.2/turn_in/5000-lab-1.2/simple_quarto_website$ git commit -m "Commit for component 8"
+[main 67227ea] Commit for component 8
+ 104 files changed, 12117 insertions(+)
+ create mode 100644 simple_quarto_website/.gitignore
+ create mode 100644 simple_quarto_website/_quarto.yml
+ create mode 100644 simple_quarto_website/_site/about.html
+ create mode 100644 simple_quarto_website/_site/about_files/figure-html/cell-2-output-1.png
+ create mode 100644 simple_quarto_website/_site/images/2023-09-09-17-30-27.png
+ create mode 100644 simple_quarto_website/_site/images/2023-09-09-18-08-53.png
+ create mode 100644 simple_quarto_website/_site/index.html
+ create mode 100644 simple_quarto_website/_site/search.json
+ create mode 100644 simple_quarto_website/_site/site_libs/bootstrap/bootstrap-icons.css
+ create mode 100644 simple_quarto_website/_site/site_libs/bootstrap/bootstrap-icons.woff
+ create mode 100644 simple_quarto_website/_site/site_libs/bootstrap/bootstrap.min.css
+ create mode 100644 simple_quarto_website/_site/site_libs/bootstrap/bootstrap.min.js
+ create mode 100644 simple_quarto_website/_site/site_libs/clipboard/clipboard.min.js
+ create mode 100644 simple_quarto_website/_site/site_libs/quarto-diagram/mermaid-init.js
+ create mode 100644 simple_quarto_website/_site/site_libs/quarto-diagram/mermaid.css
+ create mode 100644 simple_quarto_website/_site/site_libs/quarto-diagram/mermaid.min.js
+ create mode 100644 simple_quarto_website/_site/site_libs/quarto-html/anchor.min.js
+ create mode 100644 simple_quarto_website/_site/site_libs/quarto-html/light-border.css
+ create mode 100644 simple_quarto_website/_site/site_libs/quarto-html/popper.min.js
+ create mode 100644 simple_quarto_website/_site/site_libs/quarto-html/quarto-html.min.css
+ create mode 100644 simple_quarto_website/_site/site_libs/quarto-html/quarto-syntax-highlighting.css
+ create mode 100644 simple_quarto_website/_site/site_libs/quarto-html/quarto.js
+ create mode 100644 simple_quarto_website/_site/site_libs/quarto-html/tabby.min.js
+ create mode 100644 simple_quarto_website/_site/site_libs/quarto-html/tippy.css
+ create mode 100644 simple_quarto_website/_site/site_libs/quarto-html/tippy.umd.min.js
+ create mode 100644 simple_quarto_website/_site/site_libs/quarto-nav/headroom.min.js
+ create mode 100644 simple_quarto_website/_site/site_libs/quarto-nav/quarto-nav.js
+ create mode 100644 simple_quarto_website/_site/site_libs/quarto-search/autocomplete.umd.js
+ create mode 100644 simple_quarto_website/_site/site_libs/quarto-search/fuse.min.js
+ create mode 100644 simple_quarto_website/_site/site_libs/quarto-search/quarto-search.js
+ create mode 100644 simple_quarto_website/_site/site_libs/revealjs/dist/reset.css
+ create mode 100644 simple_quarto_website/_site/site_libs/revealjs/dist/reveal.css
+ create mode 100644 simple_quarto_website/_site/site_libs/revealjs/dist/reveal.esm.js
+ create mode 100644 simple_quarto_website/_site/site_libs/revealjs/dist/reveal.esm.js.map
+ create mode 100644 simple_quarto_website/_site/site_libs/revealjs/dist/reveal.js
+ create mode 100644 simple_quarto_website/_site/site_libs/revealjs/dist/reveal.js.map
+ create mode 100644 simple_quarto_website/_site/site_libs/revealjs/dist/theme/fonts/league-gothic/LICENSE
+ create mode 100644 simple_quarto_website/_site/site_libs/revealjs/dist/theme/fonts/league-gothic/league-gothic.css       
+ create mode 100644 simple_quarto_website/_site/site_libs/revealjs/dist/theme/fonts/league-gothic/league-gothic.eot       
+ create mode 100644 simple_quarto_website/_site/site_libs/revealjs/dist/theme/fonts/league-gothic/league-gothic.ttf       
+ create mode 100644 simple_quarto_website/_site/site_libs/revealjs/dist/theme/fonts/league-gothic/league-gothic.woff      
+ create mode 100644 simple_quarto_website/_site/site_libs/revealjs/dist/theme/fonts/source-sans-pro/LICENSE
+ create mode 100644 simple_quarto_website/_site/site_libs/revealjs/dist/theme/fonts/source-sans-pro/source-sans-pro-italic.eot
+ create mode 100644 simple_quarto_website/_site/site_libs/revealjs/dist/theme/fonts/source-sans-pro/source-sans-pro-italic.ttf
+ create mode 100644 simple_quarto_website/_site/site_libs/revealjs/dist/theme/fonts/source-sans-pro/source-sans-pro-italic.woff
+ create mode 100644 simple_quarto_website/_site/site_libs/revealjs/dist/theme/fonts/source-sans-pro/source-sans-pro-regular.eot
+ create mode 100644 simple_quarto_website/_site/site_libs/revealjs/dist/theme/fonts/source-sans-pro/source-sans-pro-regular.ttf
+ create mode 100644 simple_quarto_website/_site/site_libs/revealjs/dist/theme/fonts/source-sans-pro/source-sans-pro-regular.woff
+ create mode 100644 simple_quarto_website/_site/site_libs/revealjs/dist/theme/fonts/source-sans-pro/source-sans-pro-semibold.eot
+ create mode 100644 simple_quarto_website/_site/site_libs/revealjs/dist/theme/fonts/source-sans-pro/source-sans-pro-semibold.ttf
+ create mode 100644 simple_quarto_website/_site/site_libs/revealjs/dist/theme/fonts/source-sans-pro/source-sans-pro-semibold.woff
+ create mode 100644 simple_quarto_website/_site/site_libs/revealjs/dist/theme/fonts/source-sans-pro/source-sans-pro-semibolditalic.eot
+ create mode 100644 simple_quarto_website/_site/site_libs/revealjs/dist/theme/fonts/source-sans-pro/source-sans-pro-semibolditalic.ttf
+ create mode 100644 simple_quarto_website/_site/site_libs/revealjs/dist/theme/fonts/source-sans-pro/source-sans-pro-semibolditalic.woff
+ create mode 100644 simple_quarto_website/_site/site_libs/revealjs/dist/theme/fonts/source-sans-pro/source-sans-pro.css   
+ create mode 100644 simple_quarto_website/_site/site_libs/revealjs/dist/theme/quarto.css
+ create mode 100644 simple_quarto_website/_site/site_libs/revealjs/plugin/highlight/highlight.esm.js
+ create mode 100644 simple_quarto_website/_site/site_libs/revealjs/plugin/highlight/highlight.js
+ create mode 100644 simple_quarto_website/_site/site_libs/revealjs/plugin/highlight/monokai.css
+ create mode 100644 simple_quarto_website/_site/site_libs/revealjs/plugin/highlight/plugin.js
+ create mode 100644 simple_quarto_website/_site/site_libs/revealjs/plugin/highlight/zenburn.css
+ create mode 100644 simple_quarto_website/_site/site_libs/revealjs/plugin/markdown/markdown.esm.js
+ create mode 100644 simple_quarto_website/_site/site_libs/revealjs/plugin/markdown/markdown.js
+ create mode 100644 simple_quarto_website/_site/site_libs/revealjs/plugin/markdown/plugin.js
+ create mode 100644 simple_quarto_website/_site/site_libs/revealjs/plugin/math/katex.js
+ create mode 100644 simple_quarto_website/_site/site_libs/revealjs/plugin/math/math.esm.js
+ create mode 100644 simple_quarto_website/_site/site_libs/revealjs/plugin/math/math.js
+ create mode 100644 simple_quarto_website/_site/site_libs/revealjs/plugin/math/mathjax2.js
+ create mode 100644 simple_quarto_website/_site/site_libs/revealjs/plugin/math/mathjax3.js
+ create mode 100644 simple_quarto_website/_site/site_libs/revealjs/plugin/math/plugin.js
+ create mode 100644 simple_quarto_website/_site/site_libs/revealjs/plugin/notes/notes.esm.js
+ create mode 100644 simple_quarto_website/_site/site_libs/revealjs/plugin/notes/notes.js
+ create mode 100644 simple_quarto_website/_site/site_libs/revealjs/plugin/notes/plugin.js
+ create mode 100644 simple_quarto_website/_site/site_libs/revealjs/plugin/notes/speaker-view.html
+ create mode 100644 simple_quarto_website/_site/site_libs/revealjs/plugin/pdf-export/pdfexport.js
+ create mode 100644 simple_quarto_website/_site/site_libs/revealjs/plugin/pdf-export/plugin.yml
+ create mode 100644 simple_quarto_website/_site/site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css        
+ create mode 100644 simple_quarto_website/_site/site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js
+ create mode 100644 simple_quarto_website/_site/site_libs/revealjs/plugin/quarto-line-highlight/plugin.yml
+ create mode 100644 simple_quarto_website/_site/site_libs/revealjs/plugin/quarto-support/footer.css
+ create mode 100644 simple_quarto_website/_site/site_libs/revealjs/plugin/quarto-support/plugin.yml
+ create mode 100644 simple_quarto_website/_site/site_libs/revealjs/plugin/quarto-support/support.js
+ create mode 100644 simple_quarto_website/_site/site_libs/revealjs/plugin/reveal-menu/menu.css
+ create mode 100644 simple_quarto_website/_site/site_libs/revealjs/plugin/reveal-menu/menu.js
+ create mode 100644 simple_quarto_website/_site/site_libs/revealjs/plugin/reveal-menu/plugin.yml
+ create mode 100644 simple_quarto_website/_site/site_libs/revealjs/plugin/reveal-menu/quarto-menu.css
+ create mode 100644 simple_quarto_website/_site/site_libs/revealjs/plugin/reveal-menu/quarto-menu.js
+ create mode 100644 simple_quarto_website/_site/site_libs/revealjs/plugin/search/plugin.js
+ create mode 100644 simple_quarto_website/_site/site_libs/revealjs/plugin/search/search.esm.js
+ create mode 100644 simple_quarto_website/_site/site_libs/revealjs/plugin/search/search.js
+ create mode 100644 simple_quarto_website/_site/site_libs/revealjs/plugin/zoom/plugin.js
+ create mode 100644 simple_quarto_website/_site/site_libs/revealjs/plugin/zoom/zoom.esm.js
+ create mode 100644 simple_quarto_website/_site/site_libs/revealjs/plugin/zoom/zoom.js
+ create mode 100644 simple_quarto_website/_site/slides/slides.html
+ create mode 100644 simple_quarto_website/_site/slides/slides_files/figure-revealjs/cell-2-output-1.png
+ create mode 100644 simple_quarto_website/about.ipynb
+ create mode 100644 simple_quarto_website/images/2023-09-09-17-30-27.png
+ create mode 100644 simple_quarto_website/images/2023-09-09-18-08-53.png
+ create mode 100644 simple_quarto_website/index.qmd
+ create mode 100644 simple_quarto_website/nature.csl
+ create mode 100644 simple_quarto_website/references.bib
+ create mode 100644 simple_quarto_website/slides/slides.ipynb
+ create mode 100644 simple_quarto_website/slides/test.png
+ create mode 100644 simple_quarto_website/test.png
+jaehobahng@DESKTOP-8V7EJU3:/mnt/c/Users/JaeHoBahng/Desktop/2023_Fall/DSAN_5000_DataScienceAndAnalytics/labs/lab1.2/turn_in/5000-lab-1.2/simple_quarto_website$ git push
+Username for 'https://github.com': jaehobahng
+Password for 'https://jaehobahng@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/jaehobahng/5000-lab-1.2.git/'
+jaehobahng@DESKTOP-8V7EJU3:/mnt/c/Users/JaeHoBahng/Desktop/2023_Fall/DSAN_5000_DataScienceAndAnalytics/labs/lab1.2/turn_in/5000-lab-1.2/simple_quarto_website$ git push
+Username for 'https://github.com': jaeho127
+Password for 'https://jaeho127@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/jaehobahng/5000-lab-1.2.git/'
+jaehobahng@DESKTOP-8V7EJU3:/mnt/c/Users/JaeHoBahng/Desktop/2023_Fall/DSAN_5000_DataScienceAndAnalytics/labs/lab1.2/turn_in/5000-lab-1.2/simple_quarto_website$ git push
+Username for 'https://github.com': jaehobahng
+Password for 'https://jaehobahng@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/jaehobahng/5000-lab-1.2.git/'
+jaehobahng@DESKTOP-8V7EJU3:/mnt/c/Users/JaeHoBahng/Desktop/2023_Fall/DSAN_5000_DataScienceAndAnalytics/labs/lab1.2/turn_in/5000-lab-1.2/simple_quarto_website$ git push
+Username for 'https://github.com': jaehobahng
+Password for 'https://jaehobahng@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/jaehobahng/5000-lab-1.2.git/'
+jaehobahng@DESKTOP-8V7EJU3:/mnt/c/Users/JaeHoBahng/Desktop/2023_Fall/DSAN_5000_DataScienceAndAnalytics/labs/lab1.2/turn_in/5000-lab-1.2/simple_quarto_website$ git push
+Username for 'https://github.com': jaehobahng
+Password for 'https://jaehobahng@github.com': 
+Enumerating objects: 135, done.
+Counting objects: 100% (135/135), done.
+Delta compression using up to 20 threads
+Compressing objects: 100% (128/128), done.
+Writing objects: 100% (134/134), 3.15 MiB | 1.47 MiB/s, done.
+Total 134 (delta 7), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (7/7), done.
+To https://github.com/jaehobahng/5000-lab-1.2.git
+   6b485b1..67227ea  main -> main
+jaehobahng@DESKTOP-8V7EJU3:/mnt/c/Users/JaeHoBahng/Desktop/2023_Fall/DSAN_5000_DataScienceAndAnalytics/labs/lab1.2/turn_in/5000-lab-1.2/simple_quarto_website$ 
+
+
+
+Component #9
+jaehobahng@DESKTOP-8V7EJU3:/mnt/c/Users/JaeHoBahng/Desktop/2023_Fall/DSAN_5000_DataScienceAndAnalytics/labs/lab1.2/turn_in/5000-lab-1.2/simple_quarto_website$ rsync -alvr _site jaehobah@gtown3.reclaimhosting.com:/home/jaehobah/public_html/5000_lab1.2
+(jaehobah@gtown3.reclaimhosting.com) Password: 
+sending incremental file list
+created directory /home/jaehobah/public_html/5000_lab1.2
+_site/
+_site/about.html
+_site/index.html
+_site/search.json
+_site/about_files/
+_site/about_files/figure-html/
+_site/about_files/figure-html/cell-2-output-1.png
+_site/images/
+_site/images/2023-09-09-17-30-27.png
+_site/images/2023-09-09-18-08-53.png
+_site/site_libs/
+_site/site_libs/bootstrap/
+_site/site_libs/bootstrap/bootstrap-icons.css
+_site/site_libs/bootstrap/bootstrap-icons.woff
+_site/site_libs/bootstrap/bootstrap.min.css
+_site/site_libs/bootstrap/bootstrap.min.js
+_site/site_libs/clipboard/
+_site/site_libs/clipboard/clipboard.min.js
+_site/site_libs/quarto-diagram/
+_site/site_libs/quarto-diagram/mermaid-init.js
+_site/site_libs/quarto-diagram/mermaid.css
+_site/site_libs/quarto-diagram/mermaid.min.js
+_site/site_libs/quarto-html/
+_site/site_libs/quarto-html/anchor.min.js
+_site/site_libs/quarto-html/light-border.css
+_site/site_libs/quarto-html/popper.min.js
+_site/site_libs/quarto-html/quarto-html.min.css
+_site/site_libs/quarto-html/quarto-syntax-highlighting.css
+_site/site_libs/quarto-html/quarto.js
+_site/site_libs/quarto-html/tabby.min.js
+_site/site_libs/quarto-html/tippy.css
+_site/site_libs/quarto-html/tippy.umd.min.js
+_site/site_libs/quarto-nav/
+_site/site_libs/quarto-nav/headroom.min.js
+_site/site_libs/quarto-nav/quarto-nav.js
+_site/site_libs/quarto-search/
+_site/site_libs/quarto-search/autocomplete.umd.js
+_site/site_libs/quarto-search/fuse.min.js
+_site/site_libs/quarto-search/quarto-search.js
+_site/site_libs/revealjs/
+_site/site_libs/revealjs/dist/
+_site/site_libs/revealjs/dist/reset.css
+_site/site_libs/revealjs/dist/reveal.css
+_site/site_libs/revealjs/dist/reveal.esm.js
+_site/site_libs/revealjs/dist/reveal.esm.js.map
+_site/site_libs/revealjs/dist/reveal.js
+_site/site_libs/revealjs/dist/reveal.js.map
+_site/site_libs/revealjs/dist/theme/
+_site/site_libs/revealjs/dist/theme/quarto.css
+_site/site_libs/revealjs/dist/theme/fonts/
+_site/site_libs/revealjs/dist/theme/fonts/league-gothic/
+_site/site_libs/revealjs/dist/theme/fonts/league-gothic/LICENSE
+_site/site_libs/revealjs/dist/theme/fonts/league-gothic/league-gothic.css
+_site/site_libs/revealjs/dist/theme/fonts/league-gothic/league-gothic.eot
+_site/site_libs/revealjs/dist/theme/fonts/league-gothic/league-gothic.ttf
+_site/site_libs/revealjs/dist/theme/fonts/league-gothic/league-gothic.woff
+_site/site_libs/revealjs/dist/theme/fonts/source-sans-pro/
+_site/site_libs/revealjs/dist/theme/fonts/source-sans-pro/LICENSE
+_site/site_libs/revealjs/dist/theme/fonts/source-sans-pro/source-sans-pro-italic.eot
+_site/site_libs/revealjs/dist/theme/fonts/source-sans-pro/source-sans-pro-italic.ttf
+_site/site_libs/revealjs/dist/theme/fonts/source-sans-pro/source-sans-pro-italic.woff
+_site/site_libs/revealjs/dist/theme/fonts/source-sans-pro/source-sans-pro-regular.eot
+_site/site_libs/revealjs/dist/theme/fonts/source-sans-pro/source-sans-pro-regular.ttf
+_site/site_libs/revealjs/dist/theme/fonts/source-sans-pro/source-sans-pro-regular.woff
+_site/site_libs/revealjs/dist/theme/fonts/source-sans-pro/source-sans-pro-semibold.eot
+_site/site_libs/revealjs/dist/theme/fonts/source-sans-pro/source-sans-pro-semibold.ttf
+_site/site_libs/revealjs/dist/theme/fonts/source-sans-pro/source-sans-pro-semibold.woff
+_site/site_libs/revealjs/dist/theme/fonts/source-sans-pro/source-sans-pro-semibolditalic.eot
+_site/site_libs/revealjs/dist/theme/fonts/source-sans-pro/source-sans-pro-semibolditalic.ttf
+_site/site_libs/revealjs/dist/theme/fonts/source-sans-pro/source-sans-pro-semibolditalic.woff
+_site/site_libs/revealjs/dist/theme/fonts/source-sans-pro/source-sans-pro.css
+_site/site_libs/revealjs/plugin/
+_site/site_libs/revealjs/plugin/highlight/
+_site/site_libs/revealjs/plugin/highlight/highlight.esm.js
+_site/site_libs/revealjs/plugin/highlight/highlight.js
+_site/site_libs/revealjs/plugin/highlight/monokai.css
+_site/site_libs/revealjs/plugin/highlight/plugin.js
+_site/site_libs/revealjs/plugin/highlight/zenburn.css
+_site/site_libs/revealjs/plugin/markdown/
+_site/site_libs/revealjs/plugin/markdown/markdown.esm.js
+_site/site_libs/revealjs/plugin/markdown/markdown.js
+_site/site_libs/revealjs/plugin/markdown/plugin.js
+_site/site_libs/revealjs/plugin/math/
+_site/site_libs/revealjs/plugin/math/katex.js
+_site/site_libs/revealjs/plugin/math/math.esm.js
+_site/site_libs/revealjs/plugin/math/math.js
+_site/site_libs/revealjs/plugin/math/mathjax2.js
+_site/site_libs/revealjs/plugin/math/mathjax3.js
+_site/site_libs/revealjs/plugin/math/plugin.js
+_site/site_libs/revealjs/plugin/notes/
+_site/site_libs/revealjs/plugin/notes/notes.esm.js
+_site/site_libs/revealjs/plugin/notes/notes.js
+_site/site_libs/revealjs/plugin/notes/plugin.js
+_site/site_libs/revealjs/plugin/notes/speaker-view.html
+_site/site_libs/revealjs/plugin/pdf-export/
+_site/site_libs/revealjs/plugin/pdf-export/pdfexport.js
+_site/site_libs/revealjs/plugin/pdf-export/plugin.yml
+_site/site_libs/revealjs/plugin/quarto-line-highlight/
+_site/site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css
+_site/site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js
+_site/site_libs/revealjs/plugin/quarto-line-highlight/plugin.yml
+_site/site_libs/revealjs/plugin/quarto-support/
+_site/site_libs/revealjs/plugin/quarto-support/footer.css
+_site/site_libs/revealjs/plugin/quarto-support/plugin.yml
+_site/site_libs/revealjs/plugin/quarto-support/support.js
+_site/site_libs/revealjs/plugin/reveal-menu/
+_site/site_libs/revealjs/plugin/reveal-menu/menu.css
+_site/site_libs/revealjs/plugin/reveal-menu/menu.js
+_site/site_libs/revealjs/plugin/reveal-menu/plugin.yml
+_site/site_libs/revealjs/plugin/reveal-menu/quarto-menu.css
+_site/site_libs/revealjs/plugin/reveal-menu/quarto-menu.js
+_site/site_libs/revealjs/plugin/search/
+_site/site_libs/revealjs/plugin/search/plugin.js
+_site/site_libs/revealjs/plugin/search/search.esm.js
+_site/site_libs/revealjs/plugin/search/search.js
+_site/site_libs/revealjs/plugin/zoom/
+_site/site_libs/revealjs/plugin/zoom/plugin.js
+_site/site_libs/revealjs/plugin/zoom/zoom.esm.js
+_site/site_libs/revealjs/plugin/zoom/zoom.js
+_site/slides/
+_site/slides/slides.html
+_site/slides/slides_files/
+_site/slides/slides_files/figure-revealjs/
+_site/slides/slides_files/figure-revealjs/cell-2-output-1.png
+
+sent 8,360,451 bytes  received 2,052 bytes  983,823.88 bytes/sec
+total size is 8,351,789  speedup is 1.00
